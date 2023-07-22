@@ -20,7 +20,7 @@ public class Book {
             inverseJoinColumns = @JoinColumn(name = "author_id"))
     private Set<Author> authors = new HashSet<>();
 
-    public Publisher getPublisher() {ggg
+    public Publisher getPublisher() {
         return publisher;
     }
 
